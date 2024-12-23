@@ -1,14 +1,14 @@
-hello = "Hello World"
-name = "Bortnuk"
-prizv = "Oleksandr"
-age = 16
+h = "Hello World"
+n = "Oleksandr"
+p = "Bortnuk"
+a = 16
 
-print(hello)
-print(name)
-print(prizv)
-print(age)
+print(h)
+print(n)
+print(p)
+print(a)
 
-types_list = [type(hello), type(name), type(prizv), type(age)]
+types_list = [type(h), type(n), type(p), type(a)]
 
 print("Types of variables:", types_list)
 
