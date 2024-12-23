@@ -1,14 +1,14 @@
-hello = "Hello World"
-name = "Oleksandr"
-prizv = "Bortnuk"
-age = 16
+h = "Hello World"
+n = "Oleksandr"
+p = "Bortnuk"
+a = 16
 
-print(hello)
-print(name)
-print(prizv)
-print(age)
+print(h)
+print(n)
+print(p)
+print(a)
 
-print(type(hello))
-print(type(name))
-print(type(prizv))
-print(type(age))
+print(type(h))
+print(type(n))
+print(type(p))
+print(type(a))
