@@ -10,7 +10,7 @@ print(a)
 
 types_list = [type(h), type(n), type(p), type(a)]
 
-print("Types of variables:", types_list)
+print("Типи змінних:", types_list)
 
 
 if all(t == types_list[0] for t in types_list):
@@ -18,4 +18,4 @@ if all(t == types_list[0] for t in types_list):
 else:
     common_type = types_list[0]
     filtered_types = [t for t in types_list if t == common_type]
-    print("Filtered types:", filtered_types)
+    print("Відфільтровані типи:", filtered_types)
